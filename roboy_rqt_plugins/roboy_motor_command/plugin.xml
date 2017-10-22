@@ -1,0 +1,14 @@
+<library path="lib/libroboy_motor_command">
+  <class name="RoboyMotorCommand" type="RoboyMotorCommand" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      Motor command plugin
+    </description>
+    <qtgui>
+      <group>
+        <label>Roboy</label>
+      </group>
+      <label>roboy motor command</label>
+      <statustip>Great user interface to provide real value.</statustip>
+    </qtgui>
+  </class>
+</library>

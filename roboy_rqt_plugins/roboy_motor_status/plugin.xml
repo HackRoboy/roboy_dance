@@ -1,0 +1,14 @@
+<library path="lib/libroboy_motor_status">
+  <class name="RoboyMotorStatus" type="RoboyMotorStatus" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      Motor status plugin
+    </description>
+    <qtgui>
+      <group>
+        <label>Roboy</label>
+      </group>
+      <label>roboy motor status</label>
+      <statustip>Great user interface to provide real value.</statustip>
+    </qtgui>
+  </class>
+</library>
